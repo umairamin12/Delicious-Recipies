@@ -1,0 +1,229 @@
+.des{
+    color: gray;
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    text-align: center;
+    margin-block-end: 1em;
+    
+    color: grey;
+    font-size: 18px;
+
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.container{
+    font-family: "Open Sans",sans-serif;
+    margin: auto;
+    max-width: 1080px;
+    padding: 100px 10px 80px;
+    text-align: center;
+}
+
+.container, .container-full {
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background-color: #fefefe;
+    color:grey;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.plan li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.ul {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #efefef;
+    flex: 1;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 400px;
+    min-width: 240px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.container {
+    font-family: "Open Sans",sans-serif;
+    margin: auto;
+    max-width: 1080px;
+    padding: 100px 10px 80px;
+    text-align: center;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background-color: #fefefe;
+    color: #60697b;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    color: black;
+
+}
+h6{
+    color:black;
+}
+h1{
+    color:black;
+}
+.primaryButton {
+    background-color: #3f78e0;
+    background-color: var(--bs-primary);
+    border: 0;
+    border-radius: 40px;
+    color: #fff;
+    color: var(--bs-white);
+    cursor: pointer;
+    font-family: "Montserrat",sans-serif;
+    padding: 10px 20px;
+    text-align: center;
+}
+    .renew-tip {
+    font-size: 13px;
+    margin-top: 10px;
+    opacity: .4;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    color: #343f52;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+h2 {
+    font-size: calc(1.5rem + .06vw);
+}
+button, select {
+    text-transform: none;
+}
+
+.pricing-card-Tag{
+        background-color: #e97100;
+        border-radius: 20px;
+        color: var(--bs-white);
+        font-size: 14px;
+        margin-top: -20px;
+        padding: 5px 10px;
+        position: absolute;
+        top: 0;
+    }
+    .year {
+        background-color: #e93a00!important;
+        border-radius: 20px;
+        color: var(--bs-white);
+        font-size: 14px;
+        margin-top: -20px;
+        padding: 5px 10px;
+        position: absolute;
+        top: 0;
+    }
+
+
+.faq-question-label {
+    cursor: pointer;
+    font-weight: 700;
+    background-color: grey;
+}
+.accordion{
+--bs-accordion-active-bg:grey;
+--bs-accordion-btn-bg:grey;
+--bs-accordion-active-color:white;
+--bs-accordion-btn-focus-box-shadow:none;
+--bs-accordion-bg:grey;
+--bs-accordion-color:white;
+}
+.faq{
+    background-color: #6c757d;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.05);
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    text-align: left;
+}
+.fa-hand-point-right:before {
+    content: "\f0a4";
+}
+.links{
+    color: #2d2d2d;
+    font-size: 16px;
+    margin-right: 20px;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+.links{
+    text-align: center;
+}
+
+.btn-btn-primary{
+    background-color: #3f78e0;
+    background-color: var(--bs-primary);
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    color: var(--bs-white);
+    cursor: pointer;
+    font-family: "Montserrat",sans-serif;
+    padding: 20px 30px;
+    text-align: center;
+}

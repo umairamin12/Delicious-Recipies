@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RestrauntRecipes|Get Recipes of desire order</title>
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="homescreenStyle.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+          <img src=" C:\Users\Rayyan Tech\Desktop\Restraunt Recipes\assets\reciepie.jpeg" alt="Bootstrap" width="60" height="60" class="d-inline-block align-text-fw-bold-" > Recipes</a>
+          <ul class="nav justify-content-end">
+
+          <a class="navbar-brand" href="file:///C:/Users/Rayyan%20Tech/Desktop/Restraunt%20Recipes/HomeScreen.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+                </button>
+                
+            <a class="navbar-brand" href="file:///C:/Users/Rayyan%20Tech/Desktop/Restraunt%20Recipes/RecipiesPrices.html">Recipes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="file:///C:/Users/Rayyan%20Tech/Desktop/Restraunt%20Recipes/AboutUs.html">About</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand" href="file:///C:/Users/Rayyan%20Tech/Desktop/Restraunt%20Recipes/ContactUs.html">Contact</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Sign up/Sign In
+                </button>
+                
+            </div>
+
+
+        </div>
+      </nav>
+      <br>
+      
+      <div class="container my-5">
+        <div class="row">
+              <!-- Left Side: Text -->
+          <div class="col-md-6 left-side">
+            <h>Select Recipes from your own choice with One Click!</h><br>
+            <p1>Suggest a few recipes across different cuisines. 
+                If you have a specific type of dish or cuisine in mind, let me know, and I can provide a recipe for you.</p1>
+              </div>
+              <!-- Right Side: Image Upload Button Box -->
+              <div class="col-md-6">
+                
+                <div class="upload-box text-center" id="uploadBox">
+                  <label for="fileInput" class="btn btn-primary">
+                    Click to Upload <input type="file" id="fileInput" style="display: none;">
+                  </label>
+                  <p>
+                    or Drag and Drop | JPG / PNG.
+                  </p>
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <br>
+                  <br>
+                  <br>
+
+              <h1>How we Select Reciepes from your own Choice with the help of Images?
+              </h1>
+              <div  class="wizard">
+                <div  class="wizard__step">
+                <div  class="wizard__dot"> 
+                  <div  class="wizard__connector"></div> 
+                  <div  class="wizard__number">1</div> 
+                  <div  class="wizard__connector"></div>
+                </div> <h3>Upload Your Image</h3> 
+                <p>Simply click the "Upload an image" button and select the image 
+                  that you want to get desire recipe. Both jpg and png image formats are 
+                  supported by .</p>
+                </div>
+                
+                <div  class="wizard__step">
+                  <div class="wizard__dot">
+                    <div  class="wizard__connector"></div> 
+                    <div  class="wizard__number">2</div> 
+                    <div  class="wizard__connector"></div>
+                  </div> 
+                  <h3>Select Reciepe</h3>
+                <p>Once the image gets upload, We provide you information about recipie of your own choice. </p>
+                  </div> 
+                  <div  class="wizard__step">
+                    <div  class="wizard__dot">
+                      <div class="wizard__connector"></div> 
+                      <div  class="wizard__number">3</div>
+                      <div  class="wizard__connector"></div>
+
+                      </div>
+                      <h3>Preview and make a order</h3>
+                        <p>We detect the information about your desire reciepie.
+                        Select the recipe about relivant price and make a order</p>
+                          </div>
+                        </div> 
+                        <h2>Use Cases of Our Resteaunt Reciepies </h2>
+                        </div>
+
+      <div  class="container">
+        <div  class="cases-item">
+        <div class="column">
+    <div  class="image-container">
+            <div  class="image-view">
+        <img alt="Image View" src="C:\Users\Rayyan Tech\Desktop\Restraunt Recipes\img\11.jpg">
+        </div></div></div> 
+              <div  class="column">
+                <div  class="text-block">
+          <h4 >Captain D’s Batter Dipped Fish</h4> 
+            <p1 class="mb-2">Captain D’s makes amazing batter-dipped fish. If you are wanting a great plate of Fish and Chips, this is the recipe for you! The crispy, seasoned crust on the outside and tender fish on the inside is sure to satisfy a craving.</p1></div></div></div>
+            <div  class="cases-item">
+              <div  class="column">
+                <div class="text-block">
+            <h3>Burger King BK Royal Crispy Chicken Sandwich
+            </h3> 
+              <p1  class="mb-2">Indulge in the flavors of Burger King at home with a BK Royal Crispy Chicken Sandwich. 
+                Perfectly seasoned fried chicken, crisp lettuce, fresh tomato, and the signature Royal Sauce come together to create a mouthwatering experience. 
+                Ideal for lunch, dinner, or any time you crave a fast-food classic with a homemade twist.
+              </p1></div></div>
+              <div  class="column">
+              <div  class="image-container">
+              <div class="image-view">
+            <img  alt="Image View" src="C:\Users\Rayyan Tech\Desktop\Restraunt Recipes\img\2.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+            
+      <div class="cases-item">
+        <div  class="column">
+          <div  class="image-container">
+          <div  class="image-view">
+            <img alt="Image View" src="C:\Users\Rayyan Tech\Desktop\Restraunt Recipes\img\3.jpg">
+    </div></div></div> <div  class="column">
+  <div  class="text-block"><h4>Chili’s Black Beans</h4>
+  <p1 class="mb-2">Unearth the magic of simplicity with Chili’s Black Beans! Using wholesome canned black beans delicately seasoned to perfection, this dish is a vegan delight. Robust, flavorful, and heartily satisfying, these beans are a testament to the idea that sometimes, less truly is more. 
+      Serve them as a side, toss them into salads, or enjoy them as they are.</p1></div></div></div>
+      <div  class="cases-item">
+  <div class="column"><div  class="text-block">
+    <h3>Taco Bell Enchirito
+  </h3> 
+      <p1  class="mb-2">With the best parts of a burrito and an enchilada in one, this on-again, off-again Taco Bell menu item is perfect for big appetites looking for big flavors.</p1>
+      </div></div> 
+    <div class="column">
+    <div  class="image-container">
+  <div  class="image-view">
+    <img  alt="Image View" src="C:\Users\Rayyan Tech\Desktop\Restraunt Recipes\img\4.jpg">
+  </div>
+</div>
+</div>
+</div>
+<div class="cases-item">
+    <div  class="column">
+      <div  class="image-container">
+      <div  class="image-view">
+        <img alt="Image View" src="C:\Users\Rayyan Tech\Desktop\Restraunt Recipes\img\5.jpg">
+</div></div></div> <div  class="column">
+<div  class="text-block"><h4>Red Lobster Crispy Brussels Sprouts</h4>
+<p1 class="mb-2">Red Lobster Crispy Brussels Sprouts with soy-ginger glaze and fried onions are a tasty side dish. These roasted Brussels sprouts are crispy on the outside and tender on the inside. Fried onions add a little crunch and the ginger-soy glaze gives this dish a touch of sweetness.
+
+</p1></div></div></div>
+  <div  class="cases-item">
+<div class="column"><div  class="text-block">
+<h3>Bennigan’s Ultimate Baked Potato Soup
+
+</h3> 
+  <p1  class="mb-2">Bennigan’s ultimate baked potato soup is a delicious creamy soup packed full of potatoes and cheese and topped with all of the goodies that are served with baked potatoes.
+
+    This recipe for baked potato soup is very easy to make. You can prepare this comforting soup in no time flat.</p1>
+  </div></div> 
+<div class="column">
+<div  class="image-container">
+<div  class="image-view">
+<img  alt="Image View" src="C:\Users\Rayyan Tech\Desktop\Restraunt Recipes\img\6.jpg">
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+          <br>
+        <br>
+        <div class="container">
+            <h2>Why you make order from our Recipies</h2>
+            <div  class="grid-content">
+        <div  class="grid-item">
+          <i class="fas fa-fist-raised"></i>
+      <h4 >Accurate and Precise Results</h4> 
+    <p  class="mb-2">With our Information as mention in your recipies it presits to <br>ensure precise 
+        and accurate, giving you well assesment of dish every time you make order.</p>
+</div>
+                                                              
+<br>
+<br>
+  <div class="grid-item">
+    <i  class="fas fa-medal"></i> 
+      <h4>Time Saving</h4> 
+      <p  class="mb-2">Compared to your desire order, you can save much time.
+        Within several seconds, you can get a 
+        better result in our precise recipes.</p>
+    </div>
+<div  class="grid-item">
+  <i  class="fas fa-plane-departure"></i> 
+<h4>User-Friendly Interface</h4> 
+<p  class="mb-2">We make our Recipies allignment in different categories easy to use for users of any level. 
+Our clean design and simple workflow will ensure you a great user experience 
+while you are enjoying our service.
+</p>
+  </div>
+<div  class="grid-item">
+<i  class="fas fa-microchip"></i> 
+<h4>Web-Based Reciepes Portal and Shipment</h4> 
+<p  class="mb-2">Restraunt is a Web-based Recipies Indormation Portal.
+It can be accessed directly through a web browser without a software download 
+and install. You can enjoy it  anywhere and anytime! 
+</p>
+</div>
+    <div  class="grid-item">
+  <i ss class="fas fa-eye">
+    </i> 
+    <h4>Cost-Effective Solution</h4> 
+  <p  class="mb-2">Get your Recipie Order about desire beverages.
+Enjoy all the delcious order effectively. You no longer have to spend 
+a lot of time to wait and get wrong food. 
+</p>
+</div>
+<div  class="grid-item">
+<i  class="fas fa-marker"></i> 
+  <h4>Results upto mark</h4>
+  <p  class="mb-2">The results are upto mark from our recipes, you can 
+  get the information for our foods, or  present you the way that allow you to make order again and again.</p>
+</div>
+</div>
+<br>
+<br>
+<div class="container-full review-container"><div class="review-block">
+    <h4>They Love Us. You Will Too</h4> <div class="review-content">
+      <div class=""><i class="fas fa-quote-left"></i> 
+      <p>"Delightful culinary experience! The restaurant's recipes are a true testament to the chef's skill and
+        creativity. Each dish is a symphony of flavors, meticulously crafted to perfection. The attention to 
+        detail is commendable, and the use of high-quality ingredients shines through in every bite. 
+        From appetizers to desserts, the menu offers a diverse range of dishes that cater to various palates.
+          The presentation is impeccable, enhancing the overall dining experience. Whether you're a seasoned 
+          foodie or someone looking for a memorable meal, the restaurant's recipes are sure to leave a lasting
+          impression. Kudos to the culinary team for consistently delivering an outstanding gastronomic journey!"
+      </p> 
+    <p>
+      <a href="${review.url}">Sarah</a>
+    </p>
+  </div>
+    <div style="display: none;">
+    </div>
+    </div>
+    </div>
+  </div>
+  <!------>
+  <br>
+  <br>
+  <br>
+
+  <h3>Know More about Reciepes</h3>
+        <p>Know More About Our Reciepes</p>
+      <br>
+    </div>
+      <div class="container-lg">
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item active bg rounded">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg rounded"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"  aria-expanded="false" aria-controls="flush-collapseOne">
+          Q1: How can I adjust a recipe to make it healthier?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> Consider substituting ingredients with healthier alternatives, reducing portions, or altering cooking methods to make the recipe more nutritionally conscious.</div>
+      </div>
+    </div>
+    <div class="accordion-item active bg rounded">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg rounded"  type="button" data-bs-toggle="collapse"  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Q2: What do I do if I'm allergic to a key ingredient in a recipe?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Explore suitable substitutions or alternative recipes that accommodate your allergies while maintaining the dish's essence.</div>
+      </div>
+    </div>
+    <div class="accordion-item active bg rounded">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Q3: Can I freeze or store leftovers of this recipe?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> Get recommendations on how best to store and reheat leftovers, and if the recipe is suitable for freezing.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item active bg rounded">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+          Q4: How can I customize this recipe to suit my taste preferences?
+
+
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Learn about possible flavor variations, ingredient substitutions, or additional elements you can incorporate to personalize the recipe to your liking.</div>
+      </div>
+    </div>
+    <div class="accordion-item active bg rounded">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+          Q5: Can I get the recipe for [popular dish] from your restaurant?
+        </button>
+      </h2>
+      <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Many customers are curious about replicating their favorite restaurant dishes at home. Addressing this question diplomatically is crucial.</div>
+      </div>
+    </div>
+    <div class="accordion-item active bg rounded">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+          Q6: Can you recommend wine or beverage pairings for specific dishes on your menu?
+
+
+        </button>
+      </h2>
+      <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">  Provide insights into the best beverage pairings to enhance the overall dining experience.</div>
+      </div>
+    </div>
+    <div class="accordion-item active bg rounded">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+          Q7: Do you have any low-calorie or healthy options on your menu, and can you share the recipes?
+        </button>
+      </h2>
+      <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Health-conscious diners often inquire about lighter alternatives or the nutritional content of certain dishes.</div>
+      </div>
+    </div>
+    <div class="accordion-item active bg rounded">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+          Q8: Can I book a private event with a customized menu, and can I have access to those recipes?
+        </button>
+      </h2>
+      <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Some customers may be interested in hosting private events and want to know if the restaurant can create a unique menu, and if those recipes can be shared.!</div>
+      </div>
+    </div>
+  
+  </div>
+  </div>
+  <br>
+        <footer>
+          <div class="links">
+            <a href="/" class="nuxt-link-active">Copyright © Delicious Recipes 2020-2024</a> <a href=
+            "/privacy-policy" aria-current="page" class=
+            "nuxt-link-exact-active nuxt-link-active">Privacy</a> <a href="/terms">Terms</a> <a href=
+            "/cdn-cgi/l/email-protection#70030500001f02043032173502110315025e131f1d">support [#] Reciepies.com</a>
+        </div>
+    </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
+                            
+  

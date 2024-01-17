@@ -1,0 +1,100 @@
+p {
+    margin-bottom: 1rem;
+    margin-top: 0;
+
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  max-width: 1080px;
+  padding: 100px 10px 80px
+}
+:root {
+  font-size: 15px;
+}
+p {
+  display: block;
+  color: #60697b;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  background-color: #fefefe;
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+
+    box-sizing: border-box;
+
+  margin: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+.card-body {
+  text-align:left;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  background-color: #fefefe;
+  text-align: left;
+  display: block;
+
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin: 0;
+}
+h3 {
+  text-align:left;
+}
+.p{
+  text-align: justify;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  color:#60697b
+}
+
+ul {
+  list-style-type: disc;
+}
+.buttons button[data-v-6208e9ef] {
+  margin-left: 10px;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+.primaryButton {
+  background-color: #3f78e0;
+  background-color: var(--bs-primary);
+  border: 0;
+  border-radius: 40px;
+  color: #fff;
+  color: var(--bs-white);
+  cursor: pointer;
+  font-family: "Montserrat",sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
